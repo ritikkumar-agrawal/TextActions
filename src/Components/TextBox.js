@@ -75,10 +75,10 @@ export default function TextBox(props) {
         <h3>{props.heading}</h3>
         <textarea style={TextAreaStyle} className="form-control" value={text} onClick={emptyIt} onChange= {handleOnChange} id="exampleFormControlTextarea1" rows="10"></textarea>
         <button className="btn btn-secondary my-3" onClick={btn1Func} >Convert to UpperCase</button>
-        <button className="btn btn-secondary my-3 mx-2" onClick={btn2Func} >Convert to Lowercase</button>
-        <button className="btn btn-secondary my-3 mx-1" onClick={btn3Func} >Remove Spaces</button>
-        <button className="btn btn-secondary my-3 mx-1" onClick={btn4Func} >Make correction</button>
-        <button className="btn btn-secondary my-3 mx-1" style = {MyStyle} onClick={copyButton} >{name}</button>
+        <button className="btn btn-secondary my-3 mx-2 my-2" onClick={btn2Func} >Convert to Lowercase</button>
+        <button className="btn btn-secondary my-3 mx-1 my-2" onClick={btn3Func} >Remove Spaces</button>
+        <button className="btn btn-secondary my-3 mx-1 my-2" onClick={btn4Func} >Make correction</button>
+        <button className="btn btn-secondary my-3 mx-1 my-2" style = {MyStyle} onClick={copyButton} >{name}</button>
         <button className="btn btn-outline-secondary my-3 mx-1" onClick={btn5Func} >Clear</button>
     </div>
     </>
