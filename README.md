@@ -7,4 +7,3 @@ Functions :
 - Clear unnecessary spaces
 - and many more...
 
-:)
